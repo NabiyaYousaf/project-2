@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="check-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label for="" class="logo">Porfolio</label>
+        <ul>
+            <li><a href="#home.html" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+    </nav>
+    <section class="info">
+        <div class="info-main">
+            <h1 class="nabiya1">Nabiya Yousaf</h1>
+            <p class="nabiya">Impossible to Possible</p>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="main-about">
+            <div class="about-header">
+                <h1 class="anim anim1">About Me</h1>
+                <p class="anim1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat id cupiditate quidem sit ratione pariatur hic libero ea voluptates dignissimos!</p>
+                <p class="anim1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quidem omnis, necessitatibus dolorem voluptates excepturi nam laudantium exercitationem corrupti et?</p>
+                <p class="anim2 anim1">Your Best Choice is Here</p>
+                <!-- <button class="anim1">Click</button> -->
+            </div>
+            <aside>
+                <img src="first.jpg" alt="">
+            </aside>
+        </div>
+    </section>
+    <!-- ***********card********* -->
+    <section id="services">
+        <h1 class="card-service">Services</h1>
+        <div class="card-main">
+            <div class="card">
+                <i class="fas fa-layer-group"></i>
+                <h1 class="heading">Web Design</h1>       
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt odit quisquam quas eaque harum iure voluptatum, eos temporibus sapiente dignissimos.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-laptop-code"></i>
+                <h1 class="heading">Web Development</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt odit quisquam quas eaque harum iure voluptatum, eos temporibus sapiente dignissimos.</p>
+                
+            </div>
+            <div class="card">
+                <i class="fas fa-magic"></i>
+                <h1 class="heading">SEO</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt odit quisquam quas eaque harum iure voluptatum, eos temporibus sapiente dignissimos.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="main-skill">
+        
+            <div class="skills">
+                <h1 style="border-bottom: 1px solid;">Skills</h1>
+                <div class="skill">
+                    <div class="skill-name">
+                        HTML
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="90"style="background-color:  rgb(255, 10, 63);"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">
+                        CSS
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="75"style="background-color: yellow;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">
+                        JavaScript
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="65"style="background-color: green;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">
+                        React JS
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="50""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- ********************Packages********** -->
+ <section>
+    <div class="package-main">
+        <div class="package">
+            <h1>Basic Package</h1>
+            <p>Price 10$</p>
+            <ul>
+                <li><a href="">1 Page Website</a></li>
+                <li><a href="">2-3 Sections</a></li>
+                <li><a href="">Source Code</a></li>
+                <li><a href=""> 2 Plugins</a></li>
+                <li><a href="">Content Upload</a></li>
+            </ul>
+            <button class="btn-package">
+              <i class="fas fa-hand-holding-usd"></i>  Purchase
+            </button>
+        </div>
+
+       <div class="package">
+            <h1>Standard Package</h1>
+            <p>Price 10$</p>
+            <ul>
+                <li><a href="">1 Page Website</a></li>
+                <li><a href="">2-3 Sections</a></li>
+                <li><a href="">Source Code</a></li>
+                <li><a href=""> 2 Plugins</a></li>
+                <li><a href="">Content Upload</a></li>
+            </ul>
+            <button class="btn-package">
+              <i class="fas fa-hand-holding-usd"></i>  Purchase
+            </button>
+        </div>
+
+        <div class="package">
+            <h1>Premium Package</h1>
+            <p>Price 10$</p>
+            <ul>
+                <li><a href="">1 Page Website</a></li>
+                <li><a href="">2-3 Sections</a></li>
+                <li><a href="">Source Code</a></li>
+                <li><a href=""> 2 Plugins</a></li>
+                <li><a href="">Content Upload</a></li>
+            </ul>
+            <button class="btn-package">
+              <i class="fas fa-hand-holding-usd"></i>  Purchase
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- *****************Contact*********** -->
+<section id="contact">
+    <div class="form">
+        
+        <form onkeyup="myfun()">
+            <h1>Contact Us</h1>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"required ><br>
+            <label for="fname">Email:</label><br>
+            <input type="email" id="lname" name="lname"required ><br><br>
+            <label for="fname">Enter Message:</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+            <button type="submit" value="Submit" id="sub-btn"> Submit </button>
+        </form>
+    </div>
+</section>
+
+<!-- *****************Social Links*********** -->
+<section>
+    <div class="social">
+        <h1>Social Links</h1>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+    </div>
+</section>
+<!-- *****************Footer*********** -->
+<footer>
+    Copyright &copy; All-rights-reserved 2020.
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script>
+        gsap.from('.anim1',{opacity:0 , duration:1, x:50,stagger:0.6});
+        gsap.from('.nabiya1',{opacity:0 , duration:2, y:-50,stagger:0.6});
+        gsap.from('.nabiya',{opacity:0 , duration:1.5, x:100,stagger:0.6});
+        gsap.from('img',{opacity:0 , duration:2, y:30});
+        gsap.from('aside',{opacity:0 , duration:1, backgroundPosition:"200px 0px"});
+    </script>
+    <script>
+        $('.skill-per').each(function(){
+            var $this =$(this);
+            var per =$this.attr('per');
+            $this.css("width",per+'%');
+            $({animatedVAlue :0}).animate({animatedVAlue:per},{
+                duration:1000,
+                step:function(){
+                    $this.attr('per',Math.floor(this.animatedVAlue));
+                },
+                complete:function(){
+                    $this.attr('per',Math.floor(this.animatedVAlue))
+                }
+            });
+
+        });
+    </script>
+     <script>
+        function myfun(){
+            var x=document.getElementById('sub-btn');
+        
+        if(x.style.display =='block'){
+            x.style.display ='none';
+        }
+        else{
+            x.style.display ='block';
+        }
+        }
+       
+    </script>
+</body>
+</html>
